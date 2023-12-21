@@ -1,7 +1,7 @@
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import './size-section.scss';
 
-const SIZES = ['images/size1.webp', 'images/size2.webp'];
+const SIZES = ['images/size1.webp', 'size.png'];
 
 const SizeSection = () => {
   return (
