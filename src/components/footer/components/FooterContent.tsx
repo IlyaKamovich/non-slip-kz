@@ -5,36 +5,19 @@ const FooterContent = () => {
     return (
         <Fragment>
             <p>Время работы: пн-вс 09:00 - 21:00</p>
-            <p className="unp">
-                ООО «КЦ Телеком», УНП 193586127,
-                <br />
-                <br />
-                Адрес: 220113, г.Минск, ул.Мележа, 1, оф.232
-            </p>
-            <p className="discount-title">
-                <strong>Акция действует на всей территории Беларуси</strong>
+            <p className="unp">ТОВАРИЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ "АТЛАНТ ПЛЮС" БИН 220940045493 Алматы, Федорова, 21</p>
+            <p>Акция действует на всей территории Казахстана</p>
+            <p>
+                Телефон: <a href="tel:+77008365223">+77008365223</a>
             </p>
             <p>
-                Телефон:{' '}
-                <a href="tel: +375298753520" title="Телефон">
-                    {' '}
-                    +375298753520
-                </a>
+                E-mail: <a href="mailto:kctelekom2022@gmail.com">kctelekom2022@gmail.com</a>
             </p>
-            <p>
-                E-mail:{' '}
-                <a href="mailto: yekommers@bk.ru" title="mail">
-                    {' '}
-                    yekommers@bk.ru
-                </a>
-            </p>
-
             <Link className="first" to="/politics">
                 Политика конфиденциальности
             </Link>
             <Link to="/agreement">Пользовательское соглашение</Link>
             <Link to="/return-product">Договор возврата товара и денежных средств</Link>
-            <Link to="/receipt">Образец товарного чека</Link>
         </Fragment>
     );
 };
